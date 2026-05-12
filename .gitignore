@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+
+# Testing
+.pytest_cache/
+.hypothesis/
+.coverage
+htmlcov/
+
+# Local dev scripts (may contain real API keys)
+test_*.py
+!tests/test_*.py
+
+# Editor / OS
+.DS_Store
+*.log
